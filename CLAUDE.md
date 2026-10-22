@@ -39,8 +39,10 @@ Mọi phiên làm việc (kể cả phiên chạy theo lịch) phải đọc fil
 4. **Marketing** (từ giai đoạn 3): lịch nội dung tuần, giá TMĐT.
 5. Ghi cảnh báo mới vào tab `Cảnh báo`, đề xuất mới vào tab `Việc đề xuất` (trạng thái `Chờ duyệt`).
    Không tạo trùng đề xuất đang `Chờ duyệt`.
-6. **Gửi email bản tin** tới chongthamjison@gmail.com, tiêu đề `[Jison] Bản tin vận hành dd/mm/yyyy`, gồm:
+6. **Soạn bản tin thành thư nháp Gmail** (`create_draft`) gửi tới chongthamjison@gmail.com, tiêu đề `[Jison] Bản tin vận hành dd/mm/yyyy`, gồm:
    doanh thu hôm trước từng cửa hàng (TM / CK / tổng / tồn quỹ), việc đã làm, cảnh báo mới, việc chờ duyệt, link Bảng điều hành.
+   Chỉ tự gửi thẳng (`send_message`) khi anh Phú đã cấp quyền gửi Gmail cho phiên chạy theo lịch.
+7. Không có việc gì mới (không cảnh báo, không việc duyệt) vẫn soạn bản tin ngắn: doanh thu + "Không có gì bất thường".
 
 ## 4. File nguồn (Google Drive của chongthamjison@gmail.com)
 
